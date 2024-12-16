@@ -40,6 +40,6 @@ class TestCompareAndSum(unittest.TestCase):
         self.assertEqual(compare_and_sum('apple', 'banana'), 'apple')
     
     def test_none_values(self):
-        # It should raise a TypeError when None is passed since the function is not expected to handle None
+        # It should raise a TypeError when None is passed 
         with self.assertRaises(TypeError):
             compare_and_sum(None, 'abc')
